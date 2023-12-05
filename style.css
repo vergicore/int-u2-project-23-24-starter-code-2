@@ -1,6 +1,14 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
     text-align:center;
+    border: 5px black solid;
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: "Stencil Std", fantasy;
+    font-size: 40px;
+    
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -26,4 +34,8 @@ h2 {
 .section {
     border: 5px black solid;
     margin:5px;
+}
+
+body {
+  background-color: #d2b48e;
 }
